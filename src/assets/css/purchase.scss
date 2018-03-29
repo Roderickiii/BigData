@@ -1,0 +1,113 @@
+section {
+  h4 {
+    width: 128px;
+    line-height: 26px;
+    background: url("/src/assets/images/title_128.png") no-repeat;
+    text-align: center;
+  }
+  .title_decorate {
+    height: 2px;
+    background: url("/src/assets/images/title_decorate.png") no-repeat;
+    margin: 6px 0
+  }
+}
+
+table {
+  width: 96%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 29px;
+  th {
+    border-bottom: 1px solid rgba(0, 217, 251, .5);
+  }
+  td {
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 217, 251, .1);
+  }
+}
+
+.top_finance,
+.bottom_finance {
+  width: 100%;
+  height: 47.2%;
+  section {
+    float: left;
+    height: 100%;
+    margin-bottom: 10px
+  }
+}
+
+.bottom_finance section {
+  margin-bottom: 0
+}
+
+.top_finance section:nth-last-child(1),
+.top_finance section:nth-last-child(2),
+.bottom_finance section:nth-last-child(1) {
+  margin-left: 0.6%
+}
+
+.materialPurchase,
+.materialRate,
+.materialRanking,
+.supplierRanking {
+  width: 31.82%
+}
+
+.purchaseRanking {
+  width: 65.32%
+}
+
+.materialPurchase h4 {
+  width: 157px;
+  background: url("/src/assets/images/title_157.png") no-repeat;
+}
+
+.materialPurchase,
+.materialRate,
+.materialRanking,
+.supplierRanking {
+  position: relative;
+}
+
+.materialPurchase,
+.materialRate {
+  .charts {
+    height: 86%
+  }
+}
+
+.materialPurchase,
+.materialRate {
+  .tips {
+    position: absolute;
+    top: 52px;
+    right: 20px;
+    font-size: 15px
+  }
+}
+
+.materialPurchase,
+.materialRate {
+  .tips span {
+    margin-left: 20px
+  }
+}
+
+.purchaseRanking h4 {
+  width: 230px;
+  background: url("/src/assets/images/title_230.png") no-repeat;
+}
+
+@media(min-width:1900px) {
+  table {
+    line-height: 32px
+  }
+
+.materialPurchase,
+.materialRate,
+.materialRanking,
+.supplierRanking {
+  width: 31.86%
+}
+}

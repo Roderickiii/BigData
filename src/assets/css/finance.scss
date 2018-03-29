@@ -1,0 +1,143 @@
+section {
+  h4 {
+    width: 128px;
+    line-height: 26px;
+    background: url("/src/assets/images/title_128.png") no-repeat;
+    text-align: center;
+  }
+  .title_decorate {
+    height: 2px;
+    background: url("/src/assets/images/title_decorate.png") no-repeat;
+    margin: 6px 0
+  }
+}
+
+.title_information,
+.title_yieldRate {
+  float: left;
+}
+
+.more {
+  float: right;
+  display: block;
+  width: 70px;
+  height: 25px;
+  background: url("/src/assets/images/more.png") no-repeat;
+  padding-left: 16px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #00d9fb
+}
+
+table {
+  width: 96%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 29px;
+  th {
+    border-bottom: 1px solid rgba(0, 217, 251, .5);
+  }
+  td {
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 217, 251, .1);
+  }
+}
+
+.top_finance,
+.bottom_finance {
+  width: 100%;
+  height: 47.2%;
+}
+
+.top_finance section,
+.bottom_finance section {
+  float: left;
+  height: 100%;
+  margin-bottom: 10px
+}
+
+.bottom_finance section {
+  margin-bottom: 0
+}
+
+.top_finance section:nth-last-child(1),
+.top_finance section:nth-last-child(2),
+.bottom_finance section:nth-last-child(1) {
+  margin-left: 0.6%
+}
+
+.fundAnalysis {
+  width: 64.1%;
+  margin-left: 0 !important
+}
+
+.detail {
+  width: 64.1%
+}
+
+.yieldRate,
+.operatingCosts {
+  width: 33%
+}
+
+.yieldRate h4 {
+  width: 230px;
+  background: url("/src/assets/images/title_230.png") no-repeat;
+}
+
+.detail {
+  .charts {
+    width: 44%;
+    float: left;
+    margin-left: 1%;
+  }
+  .data {
+    width: 44%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 40px;
+    ul {
+      width: 100%;
+      li {
+        width: 50%;
+        float: left;
+        text-align: center;
+        line-height: 26px;
+        margin-top: 20px;
+        h2 {
+          color: #ff9666
+        }
+        span {
+          font-size: 14px;
+          color: #fff
+        }
+      }
+    }
+  }
+}
+
+.fundAnalysis,
+.operatingCosts,
+.detail {
+  .charts {
+    height: 86%
+  }
+}
+
+.fundAnalysis .charts div {
+  float: left;
+}
+
+@media(min-width:1900px) {
+  table {
+    line-height: 32px;
+  }
+  .detail .data li {
+    margin-top: 35px
+  }
+
+.yieldRate,
+.operatingCosts {
+  width: 33.15%
+}
+}
