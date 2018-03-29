@@ -1,6 +1,6 @@
-# kelida-bigdata-web
+# bigdata-web
 
-> kelida-bigdata
+> 大数据平台
 
 ## Build Setup
 
