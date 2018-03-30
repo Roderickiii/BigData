@@ -1,7 +1,7 @@
 {
-  "name": "kelida-bigdata-web",
+  "name": "bigData-web",
   "version": "1.0.0",
-  "description": "kelida-bigdata",
+  "description": "bigData",
   "author": "ZhangXu <zhangxu_iii@163.com>",
   "private": true,
   "scripts": {
